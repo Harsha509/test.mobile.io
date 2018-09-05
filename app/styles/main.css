@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+body {
+  background: #efefef;
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.demo {
+  font-family: Menlo, Monaco, "Courier New", Courier;
+  position: relative;
+  margin: 50px auto 50px auto;
+  width: 320px;
+  background-color: #2d2d2d;
+  color: #cccccc;
+  border-radius: 6px;
+  padding: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 8px
+}
+.demo .desktop-alert {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.demo .desktop-alert .button {
+  color: #333333;
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  padding: 6px 10px;
+  background-color: #cccccc;
+  border-radius: 3px;
+}
+.demo .content {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.demo .info {
+  list-style-type: none;
+  text-align: right;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #777;
+  padding: 0;
+  margin: 0
+}
+.demo .info li {
+  padding-bottom: 10px
+}
+.demo h1 {
+  padding: 18px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px
+}
+.demo h1 a {
+  color: #cccccc;
+}
+.demo h1 a:hover {
+  color: #ffffff;
+}
+.demo h2 {
+  font-size: 18px
+}
+.demo div.indent {
+  margin-left: 20px
+}
+.demo .string {
+  color: #99cc99;
+}
+.demo .function {
+  color: #6699cc;
+}
+.demo .less {
+  color: #999999;
+}
+.demo .yellow {
+  color: #ffcc66;
+}
+.demo .equal {
+  padding: 0 16px 0 12px;
+}
+.demo .value {
+  font-weight: bold;
+  color: #f99157;
+}
+.demo .value.number {
+  color: #f2777a;
+}
+.demo .value.boolean {
+  color: #cc99cc;
+}
+.demo .value.string {
+  color: yellow;
+}
+.demo .spacer {
+  width: 70%;
+  margin: 10px 0;
+  text-align: center;
+  border-top: 1px solid #999999;
+}
+.legend {
+  margin: -32px auto 50px auto;
+  width: 360px;
+  font-size: 12px;
+  list-style-type: none;
+  color: #777;
+}
+.legend li {
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+.legend .square {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #2d2d2d;
+  float: left;
+  margin-top: 1px;
+  margin-right: 4px;
+}
+.legend .label {
+  display: block;
+  overflow: hidden;
+}
+.legend .orange .square {
+  background: #f99157;
+}
+.legend .purple .square {
+  background: #cc99cc;
+}
+.legend .red .square {
+  background: #f2777a;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack */
+.cf:before, .cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.cf:after {
+  clear: both;
+}
